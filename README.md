@@ -65,6 +65,10 @@ npx playwright test --debug
 ```
 Runs tests in debug mode for troubleshooting.
 
+### Get the last test run report
+```bash
+npx playwright show-report
+```
 ### Auto-generate Tests
 ```bash
 npx playwright codegen

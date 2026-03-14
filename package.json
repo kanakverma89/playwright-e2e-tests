@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Playwright end-to-end tests with MCP",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
+    "test": "npx playwright test",
+    "test:firefox": "npx playwright test --project=firefox --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect} from "@playwright/test";
 
 test("Should load homepage with correct title", async ({ page }) => {
   // 1. Go to Homepage
@@ -10,3 +10,4 @@ test("Should load homepage with correct title", async ({ page }) => {
   //3. Assert header text
   await expect(page.locator("//h1")).toHaveText("CURA Healthcare Service");
 });
+    
